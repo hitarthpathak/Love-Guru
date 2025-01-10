@@ -146,13 +146,13 @@ nav a:hover {
 }
 
 .service {
-    height: 25rem;
+    height: auto;
     width: 20rem;
     margin: 1rem;
 }
 
 .img-box {
-    height: 65%;
+    height: 15rem;
     width: 100%;
 }
 
