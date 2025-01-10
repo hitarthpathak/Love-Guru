@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(250, 195, 200, 0.300);
+}
+
+nav {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: pink;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
+}
+
+.links {
+    height: 100%;
+    width: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+nav a {
+    color: red;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+}
+
+.book-a-session {
+    border-radius: 25%;
+    box-shadow: inset 5px 5px 100px red;
+    height: 15rem;
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    background-color: rgba(250, 195, 200, 0.500);
+    background-image: url("Images/Hearts.gif");
+    background-position: center;
+    background-size: contain;
+}
+
+.man {
+    height: 100%;
+    width: auto;
+}
+
+.man img {
+    border-radius: 25%;
+    height: 100%;
+    width: 100%;
+}
+
+.session {
+    height: auto;
+    width: auto;
+}
+
+.session button {
+    border: 1px solid pink;
+    border-radius: 50px;
+    height: auto;
+    width: auto;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background-color: rgba(250, 200, 200, 0.700);
+}
+
+.session button:hover {
+    border: none;
+    background-color: rgba(250, 0, 0, 0.700);
+    color: white;
+}
+
+.woman {
+    height: 100%;
+    width: auto;
+}
+
+.woman img {
+    border-radius: 25%;
+    height: 100%;
+    width: 100%;
+}
+
+.services {
+    height: auto;
+    width: 100%;
+    padding: 1rem 5rem;
+}
+
+.services h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.services-box {
+    height: auto;
+    width: auto;
+    margin-top: 1rem;
+    padding: 3rem;
+    background-color: rgba(50, 50, 150, 0.700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.service {
+    height: 25rem;
+    width: 20rem;
+}
+
+.img-box {
+    height: 65%;
+    width: 100%;
+}
+
+.img-box:hover {
+    border: 10px solid yellow;
+}
+
+.img-box img {
+    height: 100%;
+    width: 100%;
+}
+
+.details {
+    height: 35%;
+    width: 100%;
+    text-align: start;
+    background-color: rgb(255, 255, 170);
+    color: black;
+    padding: 1rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.details h2 {
+    text-decoration: underline;
+}
+
+footer {
+    height: 20rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding: 3rem;
+    font-size: 1rem;
+}
+
+.contact,
+.socials {
+    border: 2px dashed white;
+    height: auto;
+    width: 40%;
+}
+
+.contact h3,
+.socials h3 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.contact p {
+    margin: 1rem;
+    text-align: center;
+}
+
+.logos {
+    height: 2rem;
+    width: auto;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logos img {
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+}
