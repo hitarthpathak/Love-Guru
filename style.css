@@ -142,13 +142,13 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
     flex-wrap: wrap;
 }
 
 .service {
     height: 25rem;
     width: 20rem;
+    margin: 1rem;
 }
 
 .img-box {
