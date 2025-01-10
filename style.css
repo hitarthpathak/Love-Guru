@@ -166,7 +166,7 @@ nav a:hover {
 }
 
 .details {
-    height: 35%;
+    height: auto;
     width: 100%;
     text-align: start;
     background-color: rgb(255, 255, 170);
